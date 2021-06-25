@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+        .spot-card{
+            height:400px;
+            width:280px;
+            background-color: black;
+            border:3px red solid;
+        }
+
+        .spot-card-album-info h2 p{
+            color:white;
+        }
+
+        .spot-card-image{
+            height:65%;
+            width:95%;
+            display:block;
+            margin:0 auto;
+            background-color: white;
+            border:2px red solid;
+        }
+
+        .spot-card-image img{
+            width:100%;
+        }
+
+        .icon-row{
+            display:inline-block;
+        }
+
+        .album-track{
+            display:flex;
+            background-color:grey;
+        }   
+
+        .song-name{
+            color:white;
+        }
+
+        .album-track-icon{
+            width:5%;
+        }
+
+        .song-name{
+            width:80%;
+        }
+
+        .track-duration{
+            width:15%;
+            align-content: center;
+        }
+
+        .card-button{
+            display:block;
+            margin:0 auto;
+            width:100px;
+            background-color: chartreuse;
+        }
+
+        .album-track-icon, .song-name, .track-duration{
+            border:1px solid green;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="spot-card">
+        <div class="spot-card-image">
+        <img src="">
+        </div>
+        <div class="spot-card-album-info">
+        <h2>Here is The Album Title</h2>
+        <p>Here is information about the album</p>
+    </div>
+        <button class="card-button">play</button>
+        <div class="icon-row">
+            <i>icon heart</i>
+            <i>icon two</i>
+        </div>
+    </div>
+
+    <div class="album-track">
+        <div class=album-track-icon>icon</div>
+        <div class="song-name">
+            <h6>Song Name Here</h6>
+            <p>Song Album Here</p>
+        </div>
+        <div class="track-duration">
+            <p>Song minutes here</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
